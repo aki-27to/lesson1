@@ -5,7 +5,7 @@ public class Main {
         Student a001 = new Student();
         //オブジェクト名.フィールド名、フィールドに値の代入
         a001.name = "sato";
-        double[] data = {70,65,40,90,30,20};
+        double[] data = {70,65,40,90,30,29};
 
         double avg = a001.calculatingAvg(data);
         String result = a001.judge(avg);
